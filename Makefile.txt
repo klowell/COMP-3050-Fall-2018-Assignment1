@@ -6,7 +6,7 @@ driver: Assignment1.o
 	$(CC) $(CFLAGS) -o driver Assignment1.o
 
 Assignment1.o: Assignment1.c
-	$(CC) $(CFLAGS) -c Assignment.c
+	$(CC) $(CFLAGS) -c Assignment1.c
 
 clean:
 	-rm $(OBJECTS)
